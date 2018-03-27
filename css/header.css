@@ -1,0 +1,257 @@
+body {
+    background-image: url(/images/bg.jpg);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+body div{
+    width: 924px;
+    margin: auto;
+    background-color: #ffffdf;
+}
+
+/*------------------------*/
+/*Header------------------*/
+/*------------------------*/
+
+.logo img{
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    margin-left: -120px;
+}
+.logoWrite img{
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    margin-left: -142px;
+}
+
+
+.header{
+    background-color: #4e2b1d;
+    width: 924px;
+    height: 112px;
+    display: block;
+    position: relative;
+}
+
+.header ul {
+    width: inherit;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    display: table;
+}
+
+.header ul li{
+    display: inline;
+    float: left;
+    text-align: center;
+    margin: 4px;
+}
+
+.header .right {
+    float: right;
+    width: 173px;
+    margin: 8px 19px 0px 0;
+    position: relative;
+}
+
+.header p{
+    margin: 19px 19px 0 19px;
+    padding: 0;
+    color:  #fff;
+    font-family: BookAntiqua;
+    font-size: 26px;
+}
+
+.right a{
+    text-decoration: none;
+    height: 24px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.right a div{
+    clear: left;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #d8c992;
+    background-color: #ff0;
+    width: 171px;
+    height: 23px;
+    font-family: BookAntiqua;
+    color:  #472800;
+    font-size: 16px;
+    font-weight: 400; 
+}
+
+
+.buttonApp{
+    
+}
+
+.header a:focus .buttonApp,
+.header a:focus .buttonRes
+{
+    background-color: #d8c992;
+    color: #fff;    
+    
+}
+/*-----------------------*/
+/*form------------------*/
+/*-----------------------*/
+
+.formApp, .formRes {
+    display: none;
+    position: absolute;
+    left: -110%;
+    margin: 0;
+    padding: 0;
+    width: 183px;
+    height: 169px;
+}
+
+.header a:focus .formApp,
+.header .formApp:hover,
+.header .formApp:focus,
+.header a:focus .formRes
+{
+    display: block;
+}
+
+/*------------------------*/
+/*menu--------------------*/
+/*------------------------*/
+
+.nav{
+    height: 40px;
+}
+
+.nav div{
+    display: inline;
+    margin: 0;
+    width: 348px;
+    height: inherit;
+    float: left;
+}
+
+.nav div ul{
+    width: inherit;
+    float: left;
+}
+.nav .rightNav{
+    float: right;
+}
+
+.nav div ul li{
+    float: right;
+    height: 40px;
+    width: 33.33%;
+    margin: 0;
+    background-color: #808080;
+}
+.nav a {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #ab9f74;
+}
+.nav .subMenu{
+    display: none;
+    width: 192px;
+}
+.nav .subMenu li{
+    width: 100%;
+}
+.nav ul li:hover > .subMenu {
+    display: block;
+}
+
+/*------------------------*/
+/*slider------------------*/
+/*------------------------*/
+
+.slider {
+    background-color: #d8c992;
+    width: 924px;
+    height: 320px;
+}
+
+/*------------------------*/
+/*personal----------------*/
+/*------------------------*/
+
+.personal {
+    margin-top: 51px;
+    background-image: url(/images/ornament.png);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    width: 891px;
+    height: 283px;
+}
+.personal div {
+    text-align: justify;
+    font-size: 16px;
+    font-family: Arial;
+    float: left;
+    margin: 0;
+    width: 373px;
+}
+.personal h1{
+    font-family: Verdana;
+    font-size: 22.5pt;
+    margin: 0 0 26px 0;
+}
+.personal p{
+    margin: 0px;
+}
+
+
+.personalLeft img{
+    float: right;
+}
+.personal .personalLeft{
+    margin: 0 22px 0 50px;
+}
+.personalRight img{
+    float: left;
+}
+.personal .personalRight{
+    margin: 0 50px 0 22px;
+}
+
+/*------------------------*/
+/*screens-----------------*/
+/*------------------------*/
+
+.images {
+    margin-left: 48.5px;
+    margin-right: 48.5px;
+    width: auto;
+    height: 300px;
+}
+.images div
+{
+    margin-left: 12px;
+    margin-right: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #d8c992;
+    background-color: #fff;
+    text-align: center;
+    width: 182px;
+    height: 187px;
+    float: left;
+}
+.images div img{
+    max-height: 187px;
+    max-width: 170px; 
+    height: 187px;
+}
