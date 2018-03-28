@@ -42,7 +42,7 @@
                                         <textarea name="inf">
                                             Дополнительная информация
                                         </textarea>
-                                        <input type="submit" name="submit" value="Отправить">
+                                        <input class="button" type="submit" name="submit" value="ОТПРАВИТЬ">
                                     </form>
                                 </a>
                             
@@ -59,8 +59,8 @@
                                             <option value="Guder">Садовник</option>
                                         </select>
                                         <input type="text" name="educ" value="Образование">
-                                        <input type="file" name="file" value="Прикрепить резюме">
-                                        <input type="submit" name="submit" value="Отправить">
+                                        <div class="file">Прикрепить резюме<input type="file" name="file" value="/"></div>
+                                        <input class="button" type="submit" name="submit" value="ОТПРАВИТЬ">
                                     </form>
                                 </a>
                         </li>
@@ -97,24 +97,28 @@
             </div>
             <div class="personal">
                 <div class="personalLeft">
-                    <img src="/images/home.png" alt="home" />
-                    <h1>Постоянный персонал</h1>
-                    <p>
-                        Наличие в доме обслуживающего персонала - водителя, няни, гувернантки, горничной, 
-                        домработницы - это вовсе не дань моде и не причуды избалованных нежданно свалившимся 
-                        богатством нуворишей. Напротив, услугами сиделки или няни пользуются сегодня те, кто 
-                        отлично знает цену деньгам и своему времени.
-                    </p>
+                    <div>
+                        <img src="/images/home.png" alt="home" />
+                        <h1>Постоянный</h1><h1>персонал</h1>
+                        <p>
+                            Наличие в доме обслуживающего персонала - водителя, няни, гувернантки, горничной, 
+                            домработницы - это вовсе не дань моде и не причуды избалованных нежданно свалившимся 
+                            богатством нуворишей. Напротив, услугами сиделки или няни пользуются сегодня те, кто 
+                            отлично знает цену деньгам и своему времени.
+                        </p>
+                    </div>
+                    <a href="#"><div class="buttonMore">ПОДРОБНЕЕ</div></a>
                 </div>
                 <div class="personalRight">
                     <img src="/images/alarm.png" alt="home" />
-                    <h1>Временный персонал</h1>
+                    <h1>Временный</h1><h1>персонал</h1>
                     <p>
                         Наличие в доме обслуживающего персонала - водителя, няни, гувернантки, горничной, 
                         домработницы - это вовсе не дань моде и не причуды избалованных нежданно свалившимся 
                         богатством нуворишей. Напротив, услугами сиделки или няни пользуются сегодня те, кто 
                         отлично знает цену деньгам и своему времени.  
                     </p>
+                    <a href="#"><div class="buttonMore">ПОДРОБНЕЕ</div></a>
                 </div>
             </div>
 
@@ -169,16 +173,25 @@
             </div>
             <div class="footer"><!--футер-->
                 <ul>
-                        <li>Главная</li>
-                        <li>Подобрать персонал</li>
-                        <li>Цены</li>
-                        <li>Главная</li>
-                        <li>Подобрать персонал</li>
-                        <li>Цены</li>
+                    <li>ГЛАВНАЯ</li>
+                    <li class="footerLine">|</li>
+                    <li>ПОДОБРАТЬ ПЕРСОНАЛ</li>
+                    <li class="footerLine">|</li>
+                    <li>ЦЕНЫ</li>
+                    <li class="footerLine">|</li>
+                    <li>ГЛАВНАЯ</li>
+                    <li class="footerLine">|</li>
+                    <li>ПОДОБРАТЬ ПЕРСОНАЛ</li>
+                    <li class="footerLine">|</li>
+                    <li>ЦЕНЫ</li>
                 </ul>
                 <div>
                     <div>8 (4872) 31-13-45</div>
-                    <div>Разработка и продвижение сайтов компанией "Юни Веб"</div>
+                    <div class="copyright">
+                        Разработка и продвижение сайтов компанией "Юни Веб" - 
+                        <img src="/images/logoUW.png" alt="copyright" />
+                    </div>
+                    
                 </div>
             </div>
         </div>
