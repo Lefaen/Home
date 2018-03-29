@@ -1,4 +1,12 @@
-.Показать_только {
-    font-size: 18px;
-    font-family: "Verdana";
+._1_копия {
+  font-size: 18px;
+  font-family: "Verdana";
   color: rgb(69, 37, 10);
+  line-height: 1.2;
+  text-align: justifyAll;
+  text-shadow: 0px 1px 0px rgba(17, 17, 26, 0.46);
+  position: absolute;
+  left: 683px;
+  top: 565.2px;
+  z-index: 106;
+}
