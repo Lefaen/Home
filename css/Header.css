@@ -133,7 +133,8 @@
 }
 
 .formApp select,
-.formRes select {
+.formRes select,
+.show label select {
     border: 1px solid #cd8e31;
     margin-top: 12px;
     width: 310px;
@@ -147,7 +148,9 @@
     height: 72px;
 }
 .formApp .button,
-.formRes .button, .personal .buttonMore{
+.formRes .button,
+.personal .buttonMore,
+.buttonPickUp{
     margin-top: 30px;
     border-radius: 5px;
     border-style: solid;

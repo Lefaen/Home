@@ -56,7 +56,16 @@ body div{
     -webkit-text-fill-color: transparent;
     color: #000;
 }
-.personal p{
+
+.personalHeader h1{
+    margin: 0 0 35px 0;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Book Antiqua";
+}
+
+.personal p,
+personalContent{
     font-family: Arial;
     line-height: 1.2;
     font-size: 14px;
@@ -149,4 +158,59 @@ body div{
     font-size: 14px;
     font-family: "Arial";
     line-height: 1.2;
+}
+
+.pickUp div{
+    background-color: #eeeed3;
+    border: 1px solid #c6baa3;
+    width: 860px;
+    height: 105px;
+    margin: 0 32px 0 32px;
+    float: left;
+}
+.pickUp div div{
+    border: 0;
+    width: 140px;
+    height: 24px;    
+    margin: 0 15px 0 23px;
+}
+
+
+.pickUp .show{
+    width: 202px;
+    margin: 26px 25px auto 20px;
+}
+.pickUp .show select {
+    width: 202px;
+}
+
+.pickUp .year{
+    width: 325px;
+    margin: 14px 23px auto 25px;
+}
+.pickUp .year div {
+    margin-bottom: 8px;
+    height: 34px;
+    width: 100%;
+}
+.pickUp .year div:first-child {
+    margin-left: 50px;
+    width: 90%;
+}
+
+
+.pickUp label{
+    margin: 0px 8px 0px 8px;
+    font-size: 18px;
+    font-family: "Verdana";
+}
+
+.pickUp input {
+    width: 40px;
+    height: 32px;
+}
+.pickUp .buttonPickUp {
+    margin: 40px 0 0 0;
+    width: 140px;
+    height: 24px;
 }
