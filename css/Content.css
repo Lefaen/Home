@@ -174,11 +174,11 @@ personalContent{
 
 .pickUp img {
     position: absolute;
-    left: -205px;
-    top: -545px;
+    left: 835px;
+    top: -13px;
 }
 .pickUp img:first-child {
-    left: -206px;
+    left: 18px;
 }
 
 .pickUp div{
