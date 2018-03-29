@@ -82,11 +82,6 @@
     font-weight: 400; 
 }
 
-
-.buttonApp{
-    
-}
-
 .header a:focus .buttonApp,
 .header a:focus .buttonRes
 {
@@ -153,10 +148,8 @@
 .buttonPickUp{
     margin-top: 30px;
     border-radius: 5px;
-    border-style: solid;
-    border-width: 1px;
+    border: 1px solid rgb(171, 110, 23);
     color: #fff;
-    border-color: rgb(171, 110, 23);
     background-image: -moz-linear-gradient( 90deg, rgb(250,237,199) 0%, rgb(119,71,11) 0%, rgb(211,149,56) 73%, rgb(245,220,185) 96%, rgb(255,249,224) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb(250,237,199) 0%, rgb(119,71,11) 0%, rgb(211,149,56) 73%, rgb(245,220,185) 96%, rgb(255,249,224) 100%);
     background-image: -ms-linear-gradient( 90deg, rgb(250,237,199) 0%, rgb(119,71,11) 0%, rgb(211,149,56) 73%, rgb(245,220,185) 96%, rgb(255,249,224) 100%);
@@ -165,6 +158,18 @@
     width: 140px;
     height: 24px;
 }
+
+.formApp .button:hover,
+.formRes .button:hover,
+.personal .buttonMore:hover,
+.buttonPickUp:hover {
+    color: #000;
+    border: 1px solid rgb(199, 168, 101);
+    background-image: -moz-linear-gradient( 90deg, rgb(250,237,199) 0%, rgb(234,207,143) 13%, rgb(232,196,120) 58%, rgb(255,249,224) 96%, rgb(255,249,224) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(250,237,199) 0%, rgb(234,207,143) 13%, rgb(232,196,120) 58%, rgb(255,249,224) 96%, rgb(255,249,224) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(250,237,199) 0%, rgb(234,207,143) 13%, rgb(232,196,120) 58%, rgb(255,249,224) 96%, rgb(255,249,224) 100%);
+}
+
 
 .right a .formRes .file {
     background-image: none;
