@@ -1,0 +1,71 @@
+
+/*------------------------*/
+/*Footer------------------*/
+/*------------------------*/
+
+.footer {
+    width: inherit;
+    background-image: -moz-linear-gradient( 90deg, rgb(173,139,99) 0%, rgb(78,44,30) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(173,139,99) 0%, rgb(78,44,30) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(173,139,99) 0%, rgb(78,44,30) 100%);
+}
+
+.footer ul{
+    display: inline-table;
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    height: 43px;
+    background-color: #4e2c1e;
+}
+
+.footer ul li{
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    height: inherit;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    font-size: 11px;
+    font-family: Arial;
+}
+
+.footer div {
+    width: 908px;
+    padding-left: 16px;
+    height: 45px;
+    font-size: 19px;
+    font-family: "GaramondC";
+    color: #fff;
+    background: none;
+}
+
+.footer div div {
+    margin: 16px;
+    padding-left: 22px; 
+    display: table-cell;
+    text-align: justify;
+    vertical-align: middle;
+    margin-left: 22px;
+    width: 440px;
+    height: inherit;
+    
+    
+}
+.footer li.footerLine {
+    width: 1px;
+    padding: 0;
+}
+.footer .copyright {
+    padding-left: 130px;
+    font-size: 10.317px;
+    font-family: "Tahoma";
+    position: relative;
+}
+.footer .copyright img{
+    position: absolute;
+    bottom: 7px;
+    right: 25px;
+}
