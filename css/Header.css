@@ -7,7 +7,7 @@
     top: 15px;
     left: 50%;
     margin-left: -120px;
-    z-index: 1;
+    z-index: 2;
 }
 .logoWrite img{
     position: absolute;
@@ -250,6 +250,7 @@
     height: inherit;
     width: 116px;
     margin: 0;
+    z-index: 1;
 }
 .radius {
     border-radius: 5px 0 0 5px;
@@ -260,12 +261,12 @@
 }
 
 .nav .insertLine{
-    left: 100%;
+    left: 0%;
     position: absolute;
     background-image: url(/images/navLine.png);
     width: 1px;
-    height: 38px;
-    z-index: 1;
+    height: 36px;
+    z-index: 3;
 }
 .nav a {
     display: table;

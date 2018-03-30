@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="/css/header.css" />
         <link rel="stylesheet" href="/css/footer.css" />
         <link rel="stylesheet" href="/css/content.css" />
+        <script src="/js/slider.js"></script>
         <title>Ваш дом</title>
     </head>
     <body>
@@ -70,7 +71,7 @@
                     <div class="nav"><!--меню-->
                         <div>
                             <ul>
-                                <li class="radius"><div class="insertLine"></div><a href="#"><span>Главная</span></a></li>
+                                <li class="radius"><a href="#"><span>Главная</span></a></li>
                                 
                                 <li><div class="insertLine"></div><a href="#"><span>Подобрать персонал</span></a>
                                     <div class="subMenu">
@@ -82,21 +83,39 @@
                                         </ul>
                                     </div>
                                 </li>
-                                <li><a href="#"><span>Цены</span></a></li>
+                                <li><div class="insertLine"></div><a href="#"><span>Цены</span></a></li>
                             </ul>
                         </div>
                         <div class="rightNav">
                             <ul>
-                                <li class="radius2"><a href="#"><span>Контакты</span></a></li>
+                                <li class="radius2"><div class="insertLine"></div><a href="#"><span>Контакты</span></a></li>
                                 <li><div class="insertLine"></div><a href="#"><span>Оставить вакансию</span></a></li>
-                                <li><div class="insertLine"></div><a href="#"><span>Оставить заявку</span></a></li>
+                                <li><a href="#"><span>Оставить заявку</span></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="slider"><!--Слайдер-->
+                <img id="slideImage" src="/images/slider/slide1.jpg" alt="slide" />
+                <input type="radio" name="point" id="slide1" checked>
+                <input type="radio" name="point" id="slide2">
+                <input type="radio" name="point" id="slide3">
+                <input type="radio" name="point" id="slide4">
+                <input type="radio" name="point" id="slide5">
+                <input type="radio" name="point" id="slide6">
+                <div>
+                    <label class="controls" id="checked" for="slide1" onclick="showSlide(1)"></label>
+                    <label class="controls" for="slide2" onclick="showSlide(2)"></label>
+                    <label class="controls" for="slide3" onclick="showSlide(3)"></label>
+                    <label class="controls" for="slide4" onclick="showSlide(4)"></label>
+                    <label class="controls" for="slide5" onclick="showSlide(5)"></label>
+                    <label class="controls" for="slide6" onclick="showSlide(6)"></label>
+                </div>
+                
+
             </div>
+
             <div class="personal">
                 <div class="personalLeft">
                     <div>
