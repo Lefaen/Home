@@ -135,7 +135,7 @@
     border: 1px solid #cd8e31;
     margin-top: 12px;
     padding-left: 10px;
-    width: 310px;
+    width: 300px;
     height: 30px;
 }
 .formApp textarea {
@@ -143,7 +143,7 @@
     margin-top: 12px;
     margin-left: 1px;
     padding-left: 10px;
-    width: 296px;
+    width: 300px;
     height: 72px;
     resize: none;
 }
@@ -184,7 +184,7 @@
     position: relative;
     overflow: hidden;
     width: 298px;
-    height: 27px;
+    height: 30px;
     margin-top: 12px;
     text-align: left;
     padding-top: 3px;
