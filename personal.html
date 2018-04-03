@@ -10,6 +10,113 @@
     </head>
     <body>
         <div>
+            <div><!--Хедер-->
+                <div class="header">
+                    <div class="logoWrite">
+                        <img src="/images/logo2.png" alt="logo2" />
+                    </div>
+                    <div class="logo">
+                        <img src="/images/logo.png" alt="logo" />
+                    </div>
+                    <ul>
+                        <li class="left"><!--номер-->
+                            <p>8 (4872) 31-13-45</p>
+                        </li>
+                        <li class="right"><!--отправить--> 
+                                <a href="#">
+                                    <div class="buttonApp">Оставить заявку</div>
+                                    <form action="#" method="post" class="formApp">
+                                        <input type="text" name="name" value="ФИО">
+                                        <input type="text" name="phone" value="Телефон">
+                                        <select name="work">
+                                            <option value="repet">Репетитор</option>
+                                            <option value="Guver">Гувернантка</option>
+                                            <option value="BabySit" selected>Няня</option>
+                                            <option value="Driver">Водитель</option>
+                                            <option value="Guder">Садовник</option>
+                                        </select>
+                                        <select name="time">
+                                            <option value="day">Полный день</option>
+                                            <option value="halfDay">пол дня</option>
+                                            <option value="Graf" selected>График работы</option>
+                                            <option value="hours">Несколько часов</option>
+                                            <option value="sutki">Круглосуточно</option>
+                                        </select>
+                                        <textarea name="inf">
+                                            Дополнительная информация
+                                        </textarea>
+                                        <input class="button" type="submit" name="submit" value="ОТПРАВИТЬ">
+                                    </form>
+                                </a>
+                            
+                                <a href="#">
+                                    <div class="buttonRes">Отправить резюме</div>
+                                    <form action="#" method="post" class="formRes">
+                                        <input type="text" name="name" value="ФИО">
+                                        <input type="text" name="phone" value="Телефон">
+                                        <select name="work">
+                                            <option value="repet">Репетитор</option>
+                                            <option value="Guver">Гувернантка</option>
+                                            <option value="BabySit" selected>Няня</option>
+                                            <option value="Driver">Водитель</option>
+                                            <option value="Guder">Садовник</option>
+                                        </select>
+                                        <input type="text" name="educ" value="Образование">
+                                        <div class="file">Прикрепить резюме<input type="file" name="file" value="/"></div>
+                                        <input class="button" type="submit" name="submit" value="ОТПРАВИТЬ">
+                                    </form>
+                                </a>
+                        </li>
+                    </ul>
+                    <div class="nav"><!--меню-->
+                        <div>
+                            <ul>
+                                <li class="radius"><a href="#"><span>Главная</span></a></li>
+                                
+                                <li><div class="insertLine"></div><a href="#"><span>Подобрать персонал</span></a>
+                                    <div class="subMenu">
+                                        <ul>
+                                            <li><a href="#"><span>О нас</span></a></li>
+                                            <li><a href="#"><span>Задать Вопрос</span></a></li>
+                                            <li><a href="#"><span> интересно</span></a></li>
+                                            <li><a href="#"><span>Отзывы</span></a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><div class="insertLine"></div><a href="#"><span>Цены</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="rightNav">
+                            <ul>
+                                <li class="radius2"><div class="insertLine"></div><a href="#"><span>Контакты</span></a></li>
+                                <li><div class="insertLine"></div><a href="#"><span>Оставить вакансию</span></a></li>
+                                <li><a href="#"><span>Оставить заявку</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider"><!--Слайдер-->
+                <img id="slideImage" src="/images/slider/slide1.jpg" alt="slide" />
+                <input type="radio" name="point" id="slide1" checked>
+                <input type="radio" name="point" id="slide2">
+                <input type="radio" name="point" id="slide3">
+                <input type="radio" name="point" id="slide4">
+                <input type="radio" name="point" id="slide5">
+                <input type="radio" name="point" id="slide6">
+                <div>
+                    <label class="controls" id="checked" for="slide1" onclick="showSlide(1)"></label>
+                    <label class="controls" for="slide2" onclick="showSlide(2)"></label>
+                    <label class="controls" for="slide3" onclick="showSlide(3)"></label>
+                    <label class="controls" for="slide4" onclick="showSlide(4)"></label>
+                    <label class="controls" for="slide5" onclick="showSlide(5)"></label>
+                    <label class="controls" for="slide6" onclick="showSlide(6)"></label>
+                </div>
+                
+
+            </div>
+
+
             <div class="personalHeader"><!--Персонал-->
                 <h1>Подобрать персонал</h1>
             </div>
@@ -121,6 +228,29 @@
             <div class="personalContent"><!--Контент-->
                 <p>
                     Наличие в доме обслуживающего персонала - водителя, няни, гувернантки,                     горничной, домработницы - это вовсе не дань моде и не причуды избалованных                     нежданно свалившимся богатством нуворишей. Напротив, услугами сиделки или                     няни пользуются сегодня те, кто отлично знает цену деньгам и своему времени                     Наличие в доме обслуживающего персонала - водителя, няни, гувернантки,                     горничной, домработницы - это вовсе не дань моде и не причуды избалованных                     нежданно свалившимся богатством нуворишей. Напротив, услугами сиделки или                     няни пользуются сегодня те, кто отлично знает цену деньгам и своему времени                </p>                <p>                    Наличие в доме обслуживающего персонала - водителя, няни, гувернантки,                     горничной, домработницы - это вовсе не дань моде и не причуды избалованных                     нежданно свалившимся богатством нуворишей. Напротив, услугами сиделки или                     няни пользуются сегодня те, кто отлично знает цену деньгам и своему времени.                     Люди, для которых важно не только вырастить ребенка, но и создать основу                     будущего благосостояния, построив свою карьеру - вот основная категорий                     заказчиков, которые ежедневно пользуются услугами нашей компании по подбору                     домашнего персонала. Заказ няни, сиделки или домработницы является благом не                     только для женщины, которая имеет возможность строить свою карьеру или                     получить, наконец, передышку от выполнения бесконечных домашних обязанностей,                     но и для всех остальных членов семьи, которые могут провести вместе                     свободный вечер или выходные. А доступные цены, которые устанавливает на                     свои услуги наша компания, и предлагаемый нами широкий выбор различных                     категорий домашнего персонала делают исключительно удобным и, главное,                     безопасным процесс поиска няни для малыша, сиделки для пожилых членов семьи                     или домработницы для квартиры или загородного особняка.                 </p>                <p>                    Наличие в доме обслуживающего персонала - водителя, няни, гувернантки, горничной,                     домработницы - это вовсе не дань моде и не причуды избалованных нежданно                     свалившимся богатством нуворишей. Напротив, услугами сиделки или няни пользуются                     сегодня те, кто отлично знает цену деньгам и своему времени. Люди, для которых                     важно не только вырастить ребенка, но и создать основу будущего благосостояния,                     построив свою карьеру - вот основная категорий заказчиков, которые ежедневно                     пользуются услугами нашей компании по подбору домашнего персонала. Заказ няни,                     сиделки или домработницы является благом не только для женщины, которая имеет                     возможность строить свою карьеру или получить, наконец, передышку от выполнения                     бесконечных домашних обязанностей, но и для всех остальных членов семьи, которые                     могут провести вместе свободный вечер или выходные. А доступные цены, которые                     устанавливает на свои услуги наша компания, и предлагаемый нами широкий выбор                     различных категорий домашнего персонала делают исключительно удобным и, главное,                     безопасным процесс поиска няни для малыша, сиделки для пожилых членов семьи или                     домработницы для квартиры или загородного особняка.                 </p>
+            </div>
+            <div class="footer"><!--футер-->
+                <ul>
+                    <li>ГЛАВНАЯ</li>
+                    <li class="footerLine">|</li>
+                    <li>ПОДОБРАТЬ ПЕРСОНАЛ</li>
+                    <li class="footerLine">|</li>
+                    <li>ЦЕНЫ</li>
+                    <li class="footerLine">|</li>
+                    <li>ГЛАВНАЯ</li>
+                    <li class="footerLine">|</li>
+                    <li>ПОДОБРАТЬ ПЕРСОНАЛ</li>
+                    <li class="footerLine">|</li>
+                    <li>ЦЕНЫ</li>
+                </ul>
+                <div>
+                    <div>8 (4872) 31-13-45</div>
+                    <div class="copyright">
+                        Разработка и продвижение сайтов компанией "Юни Веб" - 
+                        <img src="/images/logoUW.png" alt="copyright" />
+                    </div>
+                    
+                </div>
             </div>
         </div>
     </body>

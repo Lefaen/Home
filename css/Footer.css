@@ -28,16 +28,16 @@
     vertical-align: middle;
     text-align: center;
     height: inherit;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 38px;
+    padding-right: 38px;
     color: #fff;
     font-size: 11px;
     font-family: Arial;
 }
 
 .footer div {
+    margin: 0px 22px;
     width: 908px;
-    padding-left: 16px;
     height: 45px;
     font-size: 19px;
     font-family: "GaramondC";
@@ -46,8 +46,7 @@
 }
 
 .footer div div {
-    margin: 16px;
-    padding-left: 22px; 
+    padding-left: 16px; 
     display: table-cell;
     text-align: justify;
     vertical-align: middle;
@@ -62,7 +61,7 @@
     padding: 0;
 }
 .footer .copyright {
-    padding-left: 130px;
+    padding-left: 80px;
     font-size: 10.317px;
     font-family: "Tahoma";
     position: relative;
@@ -70,5 +69,5 @@
 .footer .copyright img{
     position: absolute;
     bottom: 7px;
-    right: 25px;
+    right: 10px;
 }

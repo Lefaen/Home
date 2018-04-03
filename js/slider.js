@@ -1,9 +1,13 @@
 var labels = document.getElementsByClassName("controls");
+var timeId;
+var timeId2;
+var delay = 3 * 1000;
+var n = 1;
+
 function showSlide(n){
     var label = document.getElementById("checked");
     var img = document.getElementById("slideImage");
     label.removeAttribute("id");
-    
     
     var result, i, elm;
     
@@ -18,24 +22,22 @@ function showSlide(n){
 };
 
 window.onload = function () {
-    autoSlide(1);
-    setInterval(function () {
-        var i = 1;
-
-        autoSlide(i);
-    }, 3*1000*labels.length);
-
+    timeId2 = setInterval(function () {
+        autoSlide(1)
+    }, delay);
 };
 
-
-function autoSlide(i)
+function autoSlide(n)
 {
-    for(var i; i<7; i++) {
-        (function (i) {
-            setTimeout(function () {
-                showSlide(i);
-                console.log(i);
-            }, 3*1000 * i);
-        })(i);
-    }
+    showSlide(n)
+    clearInterval(timeId2);
+    clearInterval(timeId);
+    timeId = setInterval(function () {
+        n = n + 1;
+        if (n > 6) {
+            n = 1;
+        }
+        showSlide(n);
+        console.log(n);
+    }, delay); 
 }
