@@ -1,8 +1,7 @@
-var labels = document.getElementsByClassName("controls");
 var timeId;
 var timeId2;
-var delay = 3 * 1000;
-var n = 1;
+var delay = 1 * 1000;
+var labels = document.getElementsByClassName("controls");
 
 function showSlide(n){
     var label = document.getElementById("checked");
@@ -11,12 +10,14 @@ function showSlide(n){
     
     var result, i, elm;
     
-    for(i = 0; i<labels.length; i++){
+    /*for(i = 0; i<labels.length; i++){
         elm = labels[i];
         if(elm.getAttribute("for") == "slide" + n.toString()){
             result = elm;
         }
-    }
+    }*/
+
+    result = labels[n - 1];
     result.setAttribute("id", "checked");
     img.setAttribute("src", "/images/slider/slide" + n.toString() + ".jpg");
 };
@@ -34,7 +35,7 @@ function autoSlide(n)
     clearInterval(timeId);
     timeId = setInterval(function () {
         n = n + 1;
-        if (n > 6) {
+        if (n > labels.length) {
             n = 1;
         }
         showSlide(n);
